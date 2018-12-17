@@ -13,7 +13,7 @@
         "silverstripe/crontask": "2.1.1@stable",
         "silverstripe/gridfieldqueuedexport": "2.1.1@stable",
         "silverstripe/ldap": "1.0.3@stable",
-        "silverstripe/recipe-content-blocks": "2.1.0-rc1",
+        "silverstripe/recipe-content-blocks": "2.1.0@stable",
         "dnadesign/silverstripe-elemental-subsites": "3.0.0-beta1",
         "dnadesign/silverstripe-elemental-userforms": "3.0.0-beta1",
         "silverstripe/textextraction": "3.0.0@stable",
