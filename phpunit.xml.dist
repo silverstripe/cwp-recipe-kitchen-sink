@@ -69,6 +69,16 @@
         <directory>vendor/cwp/cwp-search/tests</directory>
         <directory>vendor/silverstripe/fulltextsearch/tests</directory>
         <directory>vendor/symbiote/silverstripe-queuedjobs/tests</directory>
+        <!--
+            These tests are excluded only on the 2.2 branch because they trigger a scenario where a
+            php shutdown function is being called from Monolog after all the unit tests pass, which in turn
+            calls an ORM query, after the database has been deleted by phpunit/SapphireTest.  Because
+            the database is no longer there, this triggers a php error which causes the travis build to fail
+            This issue does not occur in 2.3 or beyond, so these tests should not be excluded there
+            Also, this issue does not happen if you run the same unit-tests outside the context of the kitchen sink
+        -->
+        <exclude>vendor/symbiote/silverstripe-queuedjobs/tests/QueuedJobsTest.php</exclude>
+        <exclude>vendor/symbiote/silverstripe-queuedjobs/tests/ScheduledExecutionTest.php</exclude>
     </testsuite>
 
     <!-- Optional SilverStripe recipes -->
@@ -111,6 +121,16 @@
         <directory>vendor/silverstripe/segment-field/tests</directory>
         <directory>vendor/silverstripe/userforms/tests</directory>
         <directory>vendor/symbiote/silverstripe-queuedjobs/tests</directory>
+        <!--
+            These tests are excluded only on the 2.2 branch because they trigger a scenario where a
+            php shutdown function is being called from Monolog after all the unit tests pass, which in turn
+            calls an ORM query, after the database has been deleted by phpunit/SapphireTest.  Because
+            the database is no longer there, this triggers a php error which causes the travis build to fail
+            This issue does not occur in 2.3 or beyond, so these tests should not be excluded there
+            Also, this issue does not happen if you run the same unit-tests outside the context of the kitchen sink
+        -->
+        <exclude>vendor/symbiote/silverstripe-queuedjobs/tests/QueuedJobsTest.php</exclude>
+        <exclude>vendor/symbiote/silverstripe-queuedjobs/tests/ScheduledExecutionTest.php</exclude>
     </testsuite>
 
     <testsuite name="recipe-reporting-tools">
