@@ -19,8 +19,6 @@
         "silverstripe/textextraction": "3.x-dev",
         "silverstripe/realme": "4.x-dev",
         "silverstripe/ckan-registry": "1.x-dev",
-        "silverstripe/mfa": "4.x-dev",
-        "silverstripe/totp-authenticator": "4.x-dev",
         "silverstripe/webauthn-authenticator": "4.x-dev",
         "silverstripe/security-extensions": "4.x-dev",
         "silverstripe/login-forms": "4.x-dev",
@@ -32,10 +30,6 @@
         "silverstripe/recipe-testing": "^1",
         "mikey179/vfsstream": "^1.6",
         "sminnee/phpunit-mock-objects": "^3.4.5"
-    },
-    "suggest": {
-        "silverstripe/mfa": "Add MFA authentication. Only available in PHP ^7.1.",
-        "silverstripe/totp-authenticator": "Add TOTP for the silverstripe/mfa module. Only available in PHP ^7.1."
     },
     "extra": {
         "project-files": []
