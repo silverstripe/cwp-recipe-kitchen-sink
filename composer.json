@@ -5,6 +5,7 @@
     "homepage": "https://www.cwp.govt.nz",
     "license": "BSD-3-Clause",
     "require": {
+        "php": ">=5.6",
         "silverstripe/recipe-plugin": "^1",
         "cwp/cwp-installer": "2.3.x-dev",
         "cwp/agency-extensions": "2.2.x-dev",
@@ -17,7 +18,8 @@
         "dnadesign/silverstripe-elemental-userforms": "3.0.x-dev",
         "silverstripe/textextraction": "3.0.x-dev",
         "silverstripe/realme": "3.1.x-dev",
-        "silverstripe/ckan-registry": "1.1.x-dev"
+        "silverstripe/ckan-registry": "1.1.x-dev",
+        "ext-mcrypt": "*"
     },
     "require-dev": {
         "silverstripe/frameworktest": "dev-master",
