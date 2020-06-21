@@ -19,19 +19,18 @@
         "silverstripe/textextraction": "3.1.x-dev",
         "silverstripe/realme": "4.0.x-dev",
         "silverstripe/ckan-registry": "1.1.x-dev",
-        "silverstripe/mfa": "4.1.x-dev",
-        "silverstripe/totp-authenticator": "4.0.x-dev",
         "silverstripe/webauthn-authenticator": "4.0.x-dev",
         "silverstripe/security-extensions": "4.0.x-dev",
         "silverstripe/login-forms": "4.2.x-dev",
-        "symbiote/silverstripe-multivaluefield": "5.0.x-dev"
+        "symbiote/silverstripe-multivaluefield": "5.0.x-dev",
+        "silverstripe/subsites": "2.3.x-dev"
     },
     "require-dev": {
         "silverstripe/frameworktest": "dev-master",
         "silverstripe/graphql-devtools": "1.x-dev",
         "silverstripe/recipe-testing": "^1",
         "mikey179/vfsstream": "^1.6",
-        "sminnee/phpunit-mock-objects": "^3.4.5"
+        "sminnee/phpunit-mock-objects": "^3.4.7"
     },
     "extra": {
         "project-files": []
