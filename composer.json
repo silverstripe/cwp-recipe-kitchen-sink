@@ -22,7 +22,7 @@
         "ext-mcrypt": "*"
     },
     "require-dev": {
-        "silverstripe/frameworktest": "dev-master",
+        "silverstripe/frameworktest": "4.x-dev",
         "silverstripe/graphql-devtools": "1.x-dev",
         "silverstripe/recipe-testing": "^1",
         "mikey179/vfsstream": "^1.6"
