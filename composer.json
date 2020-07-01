@@ -23,10 +23,10 @@
         "silverstripe/security-extensions": "4.0.x-dev",
         "silverstripe/login-forms": "4.2.x-dev",
         "symbiote/silverstripe-multivaluefield": "5.0.x-dev",
-        "silverstripe/subsites": "2.3.x-dev"
+        "ext-mcrypt": "*"
     },
     "require-dev": {
-        "silverstripe/frameworktest": "dev-master",
+        "silverstripe/frameworktest": "4.x-dev",
         "silverstripe/graphql-devtools": "1.x-dev",
         "silverstripe/recipe-testing": "^1",
         "mikey179/vfsstream": "^1.6",
