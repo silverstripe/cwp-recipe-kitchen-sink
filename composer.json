@@ -23,7 +23,8 @@
         "silverstripe/security-extensions": "4.x-dev",
         "silverstripe/login-forms": "4.x-dev",
         "symbiote/silverstripe-multivaluefield": "5.x-dev",
-        "silverstripe/subsites": "2.x-dev"
+        "silverstripe/subsites": "2.x-dev",
+        "silverstripe/framework": "dev-pulls/symfony4 as 4.x-dev"
     },
     "require-dev": {
         "silverstripe/frameworktest": "4.x-dev",
@@ -39,5 +40,11 @@
         "process-timeout": 600
     },
     "prefer-stable": true,
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "github",
+            "url": "git@github.com:sminnee/silverstripe-framework.git"
+        }
+    ]
 }
