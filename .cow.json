@@ -19,6 +19,7 @@
   "upgrade-only": [
     "dnadesign/silverstripe-elemental-subsites",
     "dnadesign/silverstripe-elemental-userforms",
-    "undefinedoffset/sortablegridfield"
+    "undefinedoffset/sortablegridfield",
+    "silverstripe/subsites"
   ]
 }
