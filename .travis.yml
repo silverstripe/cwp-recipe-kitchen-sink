@@ -49,12 +49,15 @@ before_script:
   - echo 'memory_limit = 2G' >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
 
   - composer validate
+
+  # Used to validate cow schema
+  - composer require silverstripe/cow ^2 --no-update
+
   # Install dependencies
   - composer install --prefer-source --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile
 
   # Validate cow schema
-  - composer global require silverstripe/cow ^2
-  - $HOME/.composer/vendor/bin/cow schema:validate
+  - vendor/bin/cow schema:validate
 
 script:
   - if [[ $PHPUNIT_TEST ]]; then vendor/bin/phpunit --testsuite "$PHPUNIT_TEST" --exclude-group exclude-from-travis; fi
