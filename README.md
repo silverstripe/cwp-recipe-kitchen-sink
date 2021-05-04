@@ -1,6 +1,6 @@
 ## CWP kitchen sink recipe
 
-[![Build Status](https://travis-ci.org/silverstripe/cwp-recipe-kitchen-sink.svg?branch=master)](https://travis-ci.org/silverstripe/cwp-recipe-kitchen-sink)
+[![Build Status](https://travis-ci.com/silverstripe/cwp-recipe-kitchen-sink.svg?branch=2)](https://travis-ci.com/silverstripe/cwp-recipe-kitchen-sink)
 
 The kitchen sink is an internal recipe used for testing full CWP feature sets, including optional and suggested
 modules.
