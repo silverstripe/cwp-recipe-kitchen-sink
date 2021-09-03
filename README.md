@@ -1,3 +1,7 @@
+# DEPRECATED
+
+This package is no longer in-use. It has been superseded by [`silverstripe/recipe-kitchen-sink`](https://github.com/silverstripe/recipe-kitchen-sink).
+
 ## CWP kitchen sink recipe
 
 [![Build Status](https://travis-ci.com/silverstripe/cwp-recipe-kitchen-sink.svg?branch=2)](https://travis-ci.com/silverstripe/cwp-recipe-kitchen-sink)
